@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <form>
+    <form method="get">
         Kindly Register:<br>
-        Enter ur FirstName:<input type="text"><br>
-        Enter ur LastName:<input type="text"><br>
-        Enter ur E-mail:<input type="email"  required><br>
-        Enter Password<input type="password" minlength="8" required><br>
+        Enter ur FirstName:<input type="text" name="firstname"><br>
+        Enter ur LastName:<input type="text" name="lastname"><br>
+        Enter ur E-mail:<input type="email"  name="email"><br>
+        Enter Password<input type="password" minlength="8" name="password" required><br>
         
         Gender<br>
-        <input type="radio" name="Gender">Male<br>
-        <input type="radio" name="Gender">Female<br>
-        <input type="radio" name="Gender">Other<br>
-        enter ur birthday:<input type="date"><br>
+        <input type="radio" name="male">Male<br>
+        <input type="radio" name="female">Female<br>
+        <input type="radio" name="other">Other<br>
+        enter ur birthday:<input type="date" name="birthday"><br>
         Select ur area of interest<br>
-        <select>
-            <option value="Web Development">Web Development</option>
-            <option value="App Development">App Development</option>
-            <option value="AI AND ML">AI AND ML</option>
-            <option value="Robotics">Robotics</option>
+        <select name="interest">
+            <option value="Web Development" name="webdev">Web Development</option>
+            <option value="App Development" name="appdev">App Development</option>
+            <option value="AI AND ML" name="aiandml">AI AND ML</option>
+            <option value="Robotics" name="robotics">Robotics</option>
         </select><br>
         <input type="submit">
         <input type="reset" value="clear"><br>
