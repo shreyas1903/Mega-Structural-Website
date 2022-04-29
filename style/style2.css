@@ -2,3 +2,6 @@ body{
     background-image: url(background.jpg);
     background-size: cover;
 }
+#div1{
+    background-color: blue;
+}
